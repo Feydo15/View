@@ -1,0 +1,46 @@
+.App {
+  text-align: center;
+  background-color: gray;
+}
+
+.about{
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  padding: 20px;
+  margin-bottom: 90px;
+}
+
+.about h1 {
+  padding-bottom: 50px;
+}
+.show{
+  display: flex;
+  flex-direction: row;
+  padding: 5px;
+}
+.show Button {
+  margin-left: 10px;
+}
+#pic{
+  display: flex;
+}
+
+#pic img{
+  width: 575px;
+  height: 400px;
+}
+
+
+#intro{
+  display: flex;
+  flex-direction: column;
+  text-align: justify;
+  padding: 10px;
+
+}
+
+#intro h2{
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
